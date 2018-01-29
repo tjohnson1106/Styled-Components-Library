@@ -1,0 +1,17 @@
+{
+  "name": "styled-components-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": ["dist"],
+
+  "scripts": {
+    "start": "webpack-dev-server",
+    "docs": "NODE_ENV=production webpack -p",
+    "build": "babel src -d dist",
+    "dist": "yarn run clean && yarn run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
